@@ -3,7 +3,6 @@ package org.hyperskill.auxiliary;
 public class StubOutput implements Output {
     private StringBuilder buffer = new StringBuilder();
 
-
     @Override
     public void println(Object obj) {
         if (obj != null) {

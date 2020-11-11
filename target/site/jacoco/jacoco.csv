@@ -1,3 +1,7 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-tracker,main.java.org.hyperskill.collections.set,SpellChecker,7,0,0,0,3,0,2,0,2,0
-tracker,main.java.org.hyperskill.collections.set,TestClass,7,0,0,0,3,0,2,0,2,0
+tracker,org.hyperskill.auxiliary,ConsoleInput,26,0,0,0,6,0,4,0,4,0
+tracker,org.hyperskill.auxiliary,ConsoleOutput,7,0,0,0,3,0,2,0,2,0
+tracker,org.hyperskill.auxiliary,StubOutput,5,27,1,1,1,7,1,3,0,3
+tracker,org.hyperskill.auxiliary,StubInput,11,26,0,0,1,6,1,3,1,3
+tracker,org.hyperskill.collections.set,SpellChecker,74,80,8,8,15,17,5,6,1,2
+tracker,org.hyperskill.collections.stack,StackWithMax,13,97,2,8,4,21,3,6,1,2
