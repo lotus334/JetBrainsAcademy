@@ -12,13 +12,29 @@ import static org.junit.Assert.*;
 
 public class SpellCheckerTest {
     @Test
-    public void validPrint() {
+    public void validPrintUnknownWords() {
         Output out = new StubOutput();
         Input in = new StubInput(
-                new String[]{"one sentence"}
+                new String[]{
+                        "3",
+                        "a",
+                        "bb",
+                        "cCc",
+                        "2",
+                        "a bb aab aba ccc",
+                        "c bb aaa"
+                }
                 );
         SpellChecker checker = new SpellChecker(out, in);
-        checker.print("one sentence");
-        assertThat(out.toString(), is("one sentence\r\n"));
+        checker.printUnknownWords();
+        String ls = System.lineSeparator();
+        assertThat(out.toString(), is(
+                String.format(
+                        "aaa\r\n"
+                        + "aab\r\n"
+                        + "aba\r\n"
+                        + "c\r\n"
+                )
+        ));
     }
 }
