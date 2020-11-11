@@ -2,4 +2,4 @@
 
 [![codecov](https://codecov.io/gh/lotus334/JetBrainsAcademy/branch/master/graph/badge.svg?token=DCUAZPPR2Z)](https://codecov.io/gh/lotus334/JetBrainsAcademy)
 
-# job4j_tracker
+# This repository consist of study stuff 
