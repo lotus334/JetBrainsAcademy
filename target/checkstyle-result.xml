@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
+<file name="C:\projects\JetBrainsAcademy\src\main\java\org\hyperskill\collections\iterator\Range.java">
+</file>
+<file name="C:\projects\JetBrainsAcademy\src\main\java\org\hyperskill\sandbox\Main.java">
+</file>
+<file name="C:\projects\JetBrainsAcademy\src\test\java\org\hyperskill\collections\iterator\RangeTest.java">
+</file>
 </checkstyle>

@@ -3,5 +3,8 @@ tracker,org.hyperskill.auxiliary,ConsoleInput,26,0,0,0,6,0,4,0,4,0
 tracker,org.hyperskill.auxiliary,ConsoleOutput,7,0,0,0,3,0,2,0,2,0
 tracker,org.hyperskill.auxiliary,StubOutput,5,27,1,1,1,7,1,3,0,3
 tracker,org.hyperskill.auxiliary,StubInput,11,26,0,0,1,6,1,3,1,3
+tracker,org.hyperskill.sandbox,Main,4,0,0,0,2,0,2,0,2,0
+tracker,org.hyperskill.collections.iterator,Range.RangeIterator,0,30,0,2,0,5,0,4,0,3
+tracker,org.hyperskill.collections.iterator,Range,0,14,0,0,0,5,0,2,0,2
 tracker,org.hyperskill.collections.set,SpellChecker,74,80,8,8,15,17,5,6,1,2
 tracker,org.hyperskill.collections.stack,StackWithMax,13,97,2,8,4,21,3,6,1,2
